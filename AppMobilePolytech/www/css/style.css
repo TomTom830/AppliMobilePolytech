@@ -1,0 +1,52 @@
+/* Empty. Add your own CSS if you like */
+h1.montitle{
+    left: 94px;
+    right: 94px;
+    color: #fff;
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 0;
+    overflow: hidden;
+    margin: 0 10px;
+    min-width: 30px;
+    height: 43px;
+    text-align: center;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 44px;
+}
+
+h1.montitle2{
+    left: 94px;
+    right: 94px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 17px;
+}
+
+p.erreur_co{
+    display: none;
+}
+
+p.erreur_liste{
+    display: none;
+}
+
+.button-right{
+    display: block !important;
+    width: 100% !important;
+    text-align:right !important;
+}
+
+div.jesuisco{
+    display : none;
+}
+
+div.pasco{
+    display : inline;
+}

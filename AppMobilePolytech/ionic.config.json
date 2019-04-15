@@ -1,0 +1,43 @@
+{
+  "name": "staticTodo",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic1",
+  "watchPatterns": [
+    "scss/**/*",
+    "www/**/*",
+    "!www/lib/**/*",
+    "!www/**/*.map"
+  ],
+  "proxies": [
+    {
+      "path": "/addUser",
+      "proxyUrl": "http://localhost:3000/addUser"
+    },
+    {
+      "path": "/Connect",
+      "proxyUrl": "http://localhost:3000/Connect"
+    },
+    {
+      "path": "/getListSet",
+      "proxyUrl": "http://localhost:3000/getListSet"
+    },
+    {
+      "path": "/creerListe",
+      "proxyUrl": "http://localhost:3000/creerListe"
+    },
+    {
+      "path": "/getTaskSet",
+      "proxyUrl": "http://localhost:3000/getTaskSet"
+    },
+    {
+      "path": "/addTask",
+      "proxyUrl": "http://localhost:3000/addTask"
+    },
+    {
+      "path": "/delTask",
+      "proxyUrl": "http://localhost:3000/delTask"
+    }
+  ]
+}
