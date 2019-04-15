@@ -1,6 +1,5 @@
-# ionic-cordova
-
-Reference: https://ionicframework.com/docs/v1/guide/preface.html
+# Application Mobile Polytech Info 4A
+**Martins Thomas INFO4A**
 
 **First step: StaticTodo**
 
