@@ -1,6 +1,6 @@
 //datalayer
-var dataLayer = require('./datalayer/dataLayer.js');
-var dataUserLayer = require('./datalayer/dataUserLayer.js');
+var dataLayer = require('./datalayer/dataLayer.js.js');
+var dataUserLayer = require('./datalayer/dataUserLayer.js.js');
 var fonction_heure = require('./heure');
 
 //server web 
