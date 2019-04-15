@@ -1,0 +1,15 @@
+h1.message_erreur {
+    visibility: hidden;
+}
+
+h1.message_dejapris{
+    visibility: hidden;
+}
+
+h1.message_paspris{
+    visibility: hidden;
+}
+
+h1.message_param{
+    visibility: hidden;
+}

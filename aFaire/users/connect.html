@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html ng-app="Laconnexion">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Liste de choses à faire</title>
+        <!--link rel="stylesheet" type="text/css" href="style.css"-->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.0.8/angular.min.js"></script>
+        <link rel = "stylesheet" type = "text/css" href = "/css/style_co.css" />
+        <script src="/users/myconnect.js"></script>
+        
+    </head>
+    <body>
+        <div ng-controller="mainController">
+            <form>
+                <h1>Veuillez vous connecter </h1>
+                <h5> Identifiant : 
+                    <input type="text" placeholder="id" ng-model="InfoUser.id">
+                </h5>
+                <h5>
+                    Mot de passe :
+                    <input type="password" placeholder="mot de passe" ng-model="InfoUser.passwd">
+                </h5>    
+                <button ng-click="connexion()"> Se connecter </button>
+                <button ng-click="inscrire()"> S'inscrire </button>
+            </form>
+
+            <h1 class="message_erreur">Erreur identifiant ou mot de passe</h1>
+            <p id='cook'></p>
+            <!--<div ng-repeat="x in lesinfos">
+                <h5>{{ x.id }} {{x.pwd}}</h5>
+            </div>-->
+
+        </div>
+    </body>
+</html>

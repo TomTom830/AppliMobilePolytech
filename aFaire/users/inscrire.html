@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html ng-app="Laconnexion">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Liste de choses à faire</title>
+        <!--link rel="stylesheet" type="text/css" href="style.css"-->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.0.8/angular.min.js"></script>
+        <link rel = "stylesheet" type = "text/css" href = "/css/style_co.css" />
+        <script src="/users/myconnect.js"></script>
+        
+    </head>
+    <body>
+        <div ng-controller="mainController">
+            <button ng-click="page_connexion()"> Retour Connexion </button>
+            <form>
+                <h1>Veuillez vous inscrire </h1>
+                <h5> Identifiant : 
+                    <input type="text" placeholder="id" ng-model="InfoUser.sub_id">
+                </h5>
+                <h5>
+                    Mot de passe :
+                    <input type="password" placeholder="mot de passe" ng-model="InfoUser.sub_passwd">
+                </h5>    
+                <button ng-click="ajout_utilisateur()"> S'inscrire </button>
+                <h1 class="message_dejapris">Nom d'utilisateur deja pris</h1>
+                <h1 class="message_paspris">Inscription réussie</h1>
+                <h1 class="message_param">Veuillez remplir tout les champs</h1>
+            </form>
+            <!--<div ng-repeat="x in lesinfos">
+                <h5>{{ x.id }} {{x.pwd}}</h5>
+            </div>-->
+
+        </div>
+    </body>
+</html>

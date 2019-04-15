@@ -1,0 +1,3 @@
+*** supprimer une liste et tout ce qu'elle contient
+
+*** supprimer une liste que si on est l'auteur
