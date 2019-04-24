@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "start": "ionic serve"
+    "start": "node web.js"
   },
   "name": "staticTodo",
   "version": "0.0.1",
@@ -13,6 +13,7 @@
     "gulp-sass": "^3.1.0"
   },
   "dependencies": {
+    "express": "4.8.4",
     "cordova-browser": "6.0.0",
     "cordova-plugin-device": "^2.0.2",
     "cordova-plugin-ionic-keyboard": "^2.1.3",
