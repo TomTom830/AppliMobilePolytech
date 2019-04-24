@@ -13,31 +13,31 @@
   "proxies": [
     {
       "path": "/addUser",
-      "proxyUrl": "http://localhost:3000/addUser"
+      "proxyUrl": "https://appliwebpolytech.herokuapp.com/addUser"
     },
     {
       "path": "/Connect",
-      "proxyUrl": "http://localhost:3000/Connect"
+      "proxyUrl": "https://appliwebpolytech.herokuapp.com/Connect"
     },
     {
       "path": "/getListSet",
-      "proxyUrl": "http://localhost:3000/getListSet"
+      "proxyUrl": "https://appliwebpolytech.herokuapp.com/getListSet"
     },
     {
       "path": "/creerListe",
-      "proxyUrl": "http://localhost:3000/creerListe"
+      "proxyUrl": "https://appliwebpolytech.herokuapp.com/creerListe"
     },
     {
       "path": "/getTaskSet",
-      "proxyUrl": "http://localhost:3000/getTaskSet"
+      "proxyUrl": "https://appliwebpolytech.herokuapp.com/getTaskSet"
     },
     {
       "path": "/addTask",
-      "proxyUrl": "http://localhost:3000/addTask"
+      "proxyUrl": "https://appliwebpolytech.herokuapp.com/addTask"
     },
     {
       "path": "/delTask",
-      "proxyUrl": "http://localhost:3000/delTask"
+      "proxyUrl": "https://appliwebpolytech.herokuapp.com/delTask"
     }
   ]
 }
