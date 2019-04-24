@@ -1,8 +1,11 @@
 # Application Mobile Polytech Info 4A
 **Martins Thomas INFO4A**
 
+**Voir l'appli sur le web**
 
-**Lancer l'appli Mobile**
+Lien : https://appmobilethomas.herokuapp.com/
+
+**Lancer l'appli Mobile en local**
 
 1. Mettez vous dans le répertoire AppMobilePolytech et tapez les commandes suivantes
 1. Install Cordova : sudo npm install -g cordova
